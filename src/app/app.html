@@ -1,11 +1,12 @@
 <header>
-  <nav>
+  <nav aria-label="Menu principale">
     <a href="#home">Davide</a>
 
     <div>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <a href="#about">Chi sono</a>
+      <a href="#skills">Competenze</a>
+      <a href="#projects">Progetti</a>
+      <a href="#contact">Contatti</a>
     </div>
   </nav>
 </header>
@@ -16,10 +17,11 @@
 
     <h1>Davide Di Biasio</h1>
 
-    <h2>Full-Stack Developer</h2>
+    <h2>Sviluppatore web</h2>
 
     <p>
-      Sviluppo applicazioni web e mobile
+      Ho una formazione full-stack e sto approfondendo il frontend con Angular.
+      Qui raccolgo i progetti a cui lavoro e quello che sto imparando.
     </p>
 
     <div>
@@ -30,35 +32,66 @@
 
   <section id="about">
     <div class="section-container">
-      <h2>About me</h2>
+      <h2>Chi sono</h2>
 
       <div class="about-content">
         <p>
-          Sono Davide Di Biasio, sviluppatore software con formazione Full-Stack.
-          Ho lavorato con Java, Spring Boot, JavaScript e TypeScript e sto
-          approfondendo Angular per lo sviluppo frontend.
+          Sono di Fondi e ho studiato sviluppo full-stack all’ITS ICT Academy
+          di Roma. Durante un tirocinio di sei mesi in EcuBit ho lavorato
+          con Java, Spring Boot, JavaScript e TypeScript.
         </p>
 
         <p>
-          Mi interessa creare applicazioni web e mobile e, parallelamente,
-          sviluppare videogiochi e progetti personali.
+          Adesso mi sto concentrando sul frontend: mi piace poter vedere
+          una pagina prendere forma mentre la costruisco.
+          Questo portfolio è uno dei progetti con cui sto facendo pratica.
+        </p>
+
+        <p>
+          Fuori dal codice gioco a calcio, ascolto musica e passo parecchio
+          tempo sui videogiochi. È anche da lì che nasce la voglia di
+          imparare a crearne uno mio.
         </p>
       </div>
     </div>
   </section>
 
+  <section id="skills" aria-labelledby="skills-title">
+    <div class="section-container">
+      <h2 id="skills-title">Competenze</h2>
+
+      <p class="skills-intro">
+        Queste sono le tecnologie che ho usato tra formazione, tirocinio
+        e progetti personali. In questo periodo sto facendo pratica
+        soprattutto con Angular, TypeScript e SCSS.
+      </p>
+
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS / SCSS</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>Angular</li>
+        <li>Java</li>
+        <li>Spring Boot</li>
+        <li>SQL</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </div>
+  </section>
+
   <section id="projects">
     <div class="section-container">
-      <h2>Projects</h2>
+      <h2>Progetti e lavori in corso</h2>
 
       <div class="projects-list">
         <article class="project-card">
-          <h3>Developer Portfolio</h3>
+          <h3>Il mio portfolio</h3>
 
           <p>
-            Portfolio personale sviluppato con Angular e TypeScript per
-            presentare i miei progetti, le mie competenze e il mio percorso
-            professionale.
+            Il sito che stai visitando. Lo sto costruendo con Angular,
+            curando struttura, stile e visualizzazione su schermi diversi.
+            Uso Git e GitHub per tenere traccia delle modifiche.
           </p>
 
           <div class="project-tech">
@@ -66,34 +99,41 @@
             <span>TypeScript</span>
             <span>SCSS</span>
           </div>
+
+          <p>
+            <a href="https://github.com/ZiboNazionale/zibo-dev-portfolio" target="_blank" rel="noopener noreferrer">
+              Guarda il codice su GitHub ↗
+            </a>
+          </p>
         </article>
 
         <article class="project-card">
-          <h3>Progetto Full-Stack</h3>
+          <h3>Un’applicazione full-stack</h3>
 
           <p>
-            Applicazione full-stack in sviluppo con frontend Angular,
-            backend Spring Boot e database SQL.
+            Il prossimo progetto che vorrei sviluppare: un’applicazione
+            con frontend Angular, backend Spring Boot e database SQL.
+            È ancora un’idea da definire.
           </p>
 
           <div class="project-tech">
-            <span>Angular</span>
-            <span>Java</span>
-            <span>Spring Boot</span>
-            <span>SQL</span>
+            <span>Da progettare</span>
           </div>
         </article>
 
         <article class="project-card">
-          <h3>Game Development Project</h3>
+          <h3>Esperimenti con Unity</h3>
 
           <p>
-            Progetto personale dedicato allo sviluppo di videogiochi con Unity.
+            Sto imparando le basi dello sviluppo di videogiochi,
+            dal movimento del personaggio alle collisioni e all’interfaccia.
+            Mi piacerebbe ambientare un gioco nella mia città, Fondi.
           </p>
 
           <div class="project-tech">
             <span>Unity</span>
             <span>C#</span>
+            <span>In apprendimento</span>
           </div>
         </article>
       </div>
@@ -102,33 +142,26 @@
 
   <section id="contact">
     <div class="section-container">
-      <h2>Contact</h2>
+      <h2>Contatti</h2>
 
       <div class="contact-content">
         <p>
-          Sono disponibile per opportunità lavorative, collaborazioni e
-          progetti software.
+          Sto cercando un’opportunità di lavoro come sviluppatore.
+          Per parlare di lavoro o di un progetto, scrivimi via email
+          oppure contattami su LinkedIn.
         </p>
 
         <div class="contact-links">
-          <a href="mailto:INSERISCI-LA-TUA-EMAIL">
-            Email
+          <a href="mailto:davidedibiasio98&#64;gmail.com">
+            Scrivimi via email
           </a>
 
-          <a
-            href="https://github.com/ZiboNazionale"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
+          <a href="https://www.linkedin.com/in/davide-di-biasio-234b562a1/" target="_blank" rel="noopener noreferrer">
+            LinkedIn ↗
           </a>
 
-          <a
-            href="INSERISCI-LINK-LINKEDIN"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
+          <a href="https://github.com/ZiboNazionale" target="_blank" rel="noopener noreferrer">
+            GitHub ↗
           </a>
         </div>
       </div>
@@ -138,7 +171,7 @@
 
 <footer>
   <div class="section-container">
-    <p>Davide Di Biasio</p>
+    <p>Davide Di Biasio · Fondi</p>
   </div>
 </footer>
 
